@@ -1,0 +1,72 @@
+{
+    "root": true,
+    "env": {
+        "node": true, // for console,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "camelcase": [
+            "error",
+            {
+                "allow": [
+                    "^fld(.+)?_"
+                ]
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "line-comment-position": [
+            "error",
+            {
+                "position": "above"
+            }
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 120,
+                "ignoreComments": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "maxBOF": 0,
+                "max": 1,
+                "maxEOF": 0
+            }
+        ],
+        "semi": "error",
+        "spaced-comment": [
+            "error",
+            "always"
+        ],
+        "space-infix-ops": [
+            "error"
+        ],
+        "space-in-parens": "error"
+    }
+}

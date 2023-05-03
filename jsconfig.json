@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "module": "ES2022", // for top-level await
+        "target": "ES2022", // for top-level await
+    },
+    "inlcude": [
+        "./src/**/*",
+        "./out/**/*"
+    ]
+}
