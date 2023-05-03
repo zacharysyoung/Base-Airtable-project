@@ -9,4 +9,4 @@ All the configs to be able to:
 
 Where I learned to do any of this:
 
-- **airtable-globals.d.ts**: Getting JS globals recognized by the TS type checker (in VS Code), [Working with JavaScript # Global variables and type checking](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_global-variables-and-type-checking)
+- **airtable-globals.d.ts**: Getting JS globals recognized by the TS type checker (in VS Code), [Working with JavaScript # Global variables and type checking](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_global-variables-and-type-checking).
